@@ -1,0 +1,4 @@
+CREATE TABLE emails_web_crawler (
+	id SERIAL PRIMARY KEY,
+	email VARCHAR(255) NOT NULL UNIQUE
+);
